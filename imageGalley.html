@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>
+    .gallery {
+      display: none;
+      text-align: center;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <link rel="stylesheet" href="styles.css">
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">validateForm</a></li>
+        <li><a href="imageCycle.html">imageCycle</a></li>
+        <li><a href="imageGalley.html">ImageGallery</a></li>
+        <li><a href="slidingPanels.html">SlidingPanels</a></li>
+        <li><a href="calcultor.html">Calcuulate</a></li>
+        <li><a href="OpenWindow.html">OpeningWindows</a></li>
+        <li><a href="table.html">table</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+  <button onclick="openGallery()" id="galleryBtn">Open Gallery</button>
+
+  <div id="gallery" class="gallery">
+    <img src="images/fortnite.jpg" alt="Image 1" width="200" height="150">
+    <img src="images/League of Legends.jpeg" alt="Image 2">
+    <img src="images/valorant.jpeg" alt="Image 3">
+    <button onclick="closeGallery()">Close Gallery</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

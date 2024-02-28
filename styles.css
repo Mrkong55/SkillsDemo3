@@ -1,0 +1,90 @@
+/* Error message */
+.error {
+  color: red;
+}
+
+/* Form */
+#myForm {
+  margin: 10px;
+}
+
+label {
+  margin: 10px;
+}
+
+/* Gallery button */
+.galleryBtn {
+  padding: 10px; /* Adjust padding as needed */
+}
+
+/* Sliding panels */
+.panel-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.panel {
+  flex: 0 0 33.33%;
+  transition: transform 0.5s ease;
+}
+
+.panel img {
+  width: 100%;
+  height: auto;
+}
+
+.panel.active {
+  transform: translateX(100%);
+}
+
+.hidden {
+  transform: translateX(-100%);
+}
+
+/* Navigation bar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center; /* Center the navigation bar horizontally */
+  align-items: center; /* Center the navigation bar vertically */
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ff4500; /* Change color on hover */
+}
+
+/* Cycling images */
+.center {
+  text-align: center; /* Center text */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Center images vertically */
+  margin-top: 20px; /* Adjust margin as needed */
+}
